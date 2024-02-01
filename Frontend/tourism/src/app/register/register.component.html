@@ -1,0 +1,71 @@
+<h1>Register User</h1>
+
+<form #regForm="ngForm" (ngSubmit)="registerSubmit(regForm.value)">
+
+	<table>
+		<tbody>
+            <tr>
+				<td>customerId</td>
+				<td><input type="text" name="customerID" ngModel  /></td>
+			</tr>
+			<tr>
+				<td>CustomerName</td>
+				<td><input type="text" name="CustomerName" ngModel/></td>
+			</tr>
+			<tr>
+				<td>Salary</td>
+				<td><input type="text" name="salary" ngModel /></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					<select name="gender" ngModel>
+						<option value="" selected>Select Gender</option>
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+						<option value="Others">Others</option>
+					</select>
+				</td>
+			</tr>
+            <tr>
+				<td>DateOfJoin</td>
+				<td><input type="date" name="doj" ngModel /></td>
+			</tr>
+            <tr>
+				<td>Country</td>
+				<td>
+					<select name="country" ngModel>
+						<option value="" selected>Select Country</option>
+						<option value="IND">INDIA</option>
+						<option value="SRL">Sri Lanka</option>
+						<option value="USA">USA</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Email-Id</td>
+				<td><input type="text" name="emailId" ngModel /></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password" ngModel /></td>
+			</tr>
+            <tr>
+				<td>Department</td>
+				<td>
+					<select name="department" ngModel>
+						<option value="" selected>Select Department</option>
+						<option value="10">IT</option>
+						<option value="20">Sales</option>
+						<option value="30">Accounts</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button>Register</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</form>
