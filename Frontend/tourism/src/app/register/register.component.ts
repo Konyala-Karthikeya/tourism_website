@@ -1,20 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
-  styleUrl: './register.component.css'
+  styleUrls: ['./register.component.css']
 })
-export class RegisterComponent implements OnInit {
+export class RegisterComponent {
+  constructor() { }
 
-  constructor() {
+  onSubmit(formData: any) {
+    // Handle form submission logic here
+    console.log(formData); // Example: Log form data to the console
   }
-
-  ngOnInit() {
-  }
-
-  registerSubmit(regForm: any) {
-    console.log(regForm);
-  }
-
 }
