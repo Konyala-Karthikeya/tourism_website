@@ -11,6 +11,7 @@ import { RegisterComponent } from './register/register.component';
 =======
 >>>>>>> Ajay:Frontend/tourism_website/src/app/app.module.ts
 import { HeaderComponent } from './header/header.component';
+import { PackagesComponent } from './packages/packages.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeaderComponent } from './header/header.component';
     RegisterComponent,
 =======
 >>>>>>> Ajay:Frontend/tourism_website/src/app/app.module.ts
-    HeaderComponent
+    HeaderComponent,
+PackagesComponent
   ],
   imports: [
     BrowserModule,
