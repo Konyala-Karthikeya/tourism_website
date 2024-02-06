@@ -6,13 +6,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 
-import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
 
 
 import { HeaderComponent } from './header/header.component';
 import { PackagesComponent } from './packages/packages.component';
-import { PaymentComponent } from './payment/payment.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,14 +22,14 @@ import { PaymentComponent } from './payment/payment.component';
 
 
     HeaderComponent,
-PackagesComponent,
-PaymentComponent
+PackagesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
