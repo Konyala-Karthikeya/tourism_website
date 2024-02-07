@@ -12,6 +12,7 @@ import { RegisterComponent } from './register/register.component';
 import { HeaderComponent } from './header/header.component';
 import { PackagesComponent } from './packages/packages.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule } from '@angular/forms';
 
 
     HeaderComponent,
-PackagesComponent
+PackagesComponent,
+FooterComponent,
   ],
   imports: [
     BrowserModule,
