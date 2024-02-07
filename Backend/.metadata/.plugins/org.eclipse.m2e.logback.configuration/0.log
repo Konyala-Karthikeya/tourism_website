@@ -268,3 +268,6 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2024-02-07 16:59:26,950 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2024-02-07 16:59:26,951 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2024-02-07 16:59:26,960 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-07 16:59:26,964 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-07 16:59:26,965 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-07 16:59:26,965 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\GOPAL\OneDrive\Desktop\tourism_website\Backend\Tourism\src\test\resources
